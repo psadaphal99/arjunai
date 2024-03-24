@@ -1,0 +1,45 @@
+.chart{
+    /* margin: 20px; */
+    /* position: absolute;
+    top: 60vh;
+    left: 100px;
+    width: 80%; */
+    width: 90%;
+    z-index: 1;
+    background-color: white;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.headh3{
+    margin: 4px 5px 6px 8px;
+}
+
+.custom-tooltip{
+    border: 1 px solid black;
+    border-radius: 10px;
+    width: max-content;
+    padding: 10px;
+    color: white;
+    background-color: grey;
+}
+
+.dot-red {
+    height: 12px;
+    width: 12px;
+    background-color: #cf1111;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2px;
+  }
+.dot-green {
+    height: 12px;
+    width: 12px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2px;
+  }
+

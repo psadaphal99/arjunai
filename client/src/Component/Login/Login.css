@@ -1,0 +1,74 @@
+.login{
+    height: 100vh;
+    /* background-image: linear-gradient(to right,#fff5bc,#cec1ff); */
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vmax;
+}
+
+.loginForm{
+
+    height: max-content;
+    width: 40%;
+    border-radius: 30px;
+    background-color: white;
+    padding: 2vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginForm > input {
+    padding: 1vmax 2vmax;
+    width: 80%;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    margin: 1.5vmax;
+    font-weight: 100;
+    font-size: 1.2rem;
+    font-family: "Roboto",sans-serif;
+    outline: none;
+}
+
+.loginForm > a {
+    text-decoration: none;
+    width: 80% ;
+    background-color: rgb(23, 117, 238);
+    padding: 0;margin: 0;
+    border-radius: 10px;
+    margin: 10px;
+}
+ 
+.loginForm > a > button {
+    padding: 10px 80px;
+    width: 100%;
+    background-color: rgb(23, 117, 238);
+    border-radius: 8px;
+    margin: 10px auto;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}   
+
+
+@media screen and (max-width:600px) {
+    .login{
+        height: 92vh;
+    }
+
+    .loginForm{
+        width: 100%;
+    }
+
+    .loginForm > input {
+        width: 90%;
+        padding: 3vw 6vw;
+        margin: 3vw;
+    }
+
+    .loginForm > a{
+        align-self: center;
+    }
+}

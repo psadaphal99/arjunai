@@ -1,0 +1,275 @@
+/* navbar css  */
+.nav{
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+    box-shadow: 2px 3px 38px -6px rgba(150,139,139,0.74);
+    -webkit-box-shadow: 2px 3px 38px -6px rgba(150,139,139,0.74);
+    -moz-box-shadow: 2px 3px 38px -6px rgba(150,139,139,0.74);
+}
+.div_nav{
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+}
+.div_menu{
+    flex:1.5
+}
+.menu-icon{
+    padding-left: 0.6rem;  
+    font-size: 2rem;
+    }
+.logo{
+        width: 10rem;
+        height: 3.5rem;
+        margin: 0.5rem 1.3rem;
+    }
+
+    .div_search{
+        flex:1.5;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 0.5rem;
+        background-color: #ebeded;
+        height: 2.2rem;
+        padding: 0.5rem 0.5rem;   
+        
+    }
+    .search {
+        border: none;
+        background-color: transparent;
+        padding-left: 0.1rem;
+        outline: none;
+        
+        font-size: 1.1rem;
+        flex: 12;
+    }
+    .search-icon{
+        padding-right: 0.5rem;
+        flex: 1;
+    }
+    
+    .div_watchlist{
+        flex:4;
+        margin-right: 1.7rem;
+        justify-content: flex-end;
+        position: relative;
+    }
+
+    .watchlist-icon{
+        margin-top: 0.25rem;
+    }
+    .hover-watchlist{
+        display: none;
+    }
+
+    .watchListlink:hover + .hover-watchlist{
+        display: inline-block;
+    width: max-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    position: absolute;
+    top: 30px;
+    right: 65px;
+    font-size: 14px;
+    }
+
+    .watchname{
+        margin-left: 0.25rem;
+        font-size: 1rem;
+        font-weight: 500;
+        padding-right: 0.2rem;
+        cursor: pointer;
+    }
+    
+
+
+
+  
+
+
+    /* Calender  Css */
+    .all{
+        display: flex;
+        height: 35px;
+        width: 120px;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid grey; */
+        margin-right: 10px;
+    }
+    .calender{
+        display: inline !important;
+        height: 25px;
+        width: 90px;
+        margin:7px 5px;
+        z-index: 2222;
+    }
+    .calender div{
+    display: inline;
+    height: 25px;
+    width: 90px;
+    }
+    
+    .calender div input {
+        width: 80px;
+        border: none;
+        outline: none;
+        text-align: center;
+        height: 25px;
+        font-size: 16px;
+        margin-bottom: -7px;
+        cursor: pointer;   
+    }
+
+    .calender-icon{
+        margin-top: 5px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .hover-calender{
+        display: none;
+    }
+
+    .calender-icon:hover + .hover-calender{
+        display: inline-block;
+       width: max-content;
+       background-color: black;
+     color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    position: absolute;
+    top: 30px;
+    right: 250px;
+    font-size: 14px;
+    }
+
+    .nav-table{
+        margin-left: 8px;
+    }
+
+    .link{
+        color: inherit;
+    }
+
+    .iconaddnote{
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    .hover-iconaddnote{
+        display: none;
+    }
+
+    .iconaddnote:hover + .hover-iconaddnote{
+    display: inline-block;
+    width: max-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    position: absolute;
+    top: 30px;
+    right: 25px;
+    font-size: 14px;
+    }
+
+  .profile-container{
+      position: relative;
+  }
+
+    .profile {
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color: #ff5722;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        margin-left: 15px;
+        padding: 2px;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: 800;
+        position: relative;
+        transition: 0.5sec;
+    }
+
+    .hover-profile{
+        display: none;
+    }
+
+    .profile:hover + .hover-profile{
+        display: inline-block;
+        width: max-content;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        padding: 4px 8px;
+        position: absolute;
+        top: 40px;
+        right: -20px;
+        font-size: 14px;
+    }
+
+
+
+
+    /* Media  */
+    /* For mobile  */
+
+    @media screen and (max-width: 400px) {
+      
+        .html{
+            width: 400px;
+        }
+        .menu-icon{
+            font-size: 2rem;
+            margin-right: 0.3rem;
+            display: inline;
+
+        }
+        .logo{
+            width: 4rem;
+            height: 3rem;
+            margin: 0.1rem 0.3rem;
+      }
+      .div_search{
+        display: none;
+    }
+    .div_watchlist{
+           margin-right: 0.1rem;
+    }
+     .watchname{
+       display: none;
+       
+    }
+    .calender div input{
+        width: 5.3rem;
+    }
+
+    .watchlist-icon{
+        margin-right: 0.2rem;
+    }
+
+    .iconaddnote{
+        margin: 0px;
+        padding: 0;
+        margin-right: 0.4rem;
+    }
+   
+    }
+
+
+

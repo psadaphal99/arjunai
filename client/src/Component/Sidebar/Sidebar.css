@@ -1,0 +1,77 @@
+/* sidebar css  */
+.sidebar {
+    
+    background-color: white;
+    color: black;
+    width: 267px;
+    flex-wrap: wrap;
+    border: 0.1rem solid #f1e6e6;
+    overflow-y: none;
+    height: 90vh;
+    position: fixed;
+    left: 0;
+    top: 10vh;
+    transform: translateX(-100%);
+    transition: 0.3s ease-in;
+    z-index: 0;
+    overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+  }
+
+.sidebar-btn {
+    
+    padding: 0.25rem 0.25rem;
+    text-align: left;
+    border: none;
+    background-color: white;
+    border-bottom: 0.1rem solid #f7ebeb;
+    width: 100%;
+    font-size: 1.1rem;
+   
+
+background-color: #fff;
+ border-radius: 0px;
+ border-style: none;
+ box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+ letter-spacing: .25px;
+ line-height: normal;
+ padding: 10px 12px;
+    
+}
+.link{
+    text-decoration: none;
+}
+.open{
+    transform: translateX(0%);
+}
+
+.percent_icon{
+    font-size: 12px;
+}
+
+.percentage{
+    font-size: 30;
+    font-weight: bolder;
+    color: grey;
+    margin-right: 5px;
+}
+
+
+@media screen and (max-width: 400px){
+
+ .sidebar{
+        transform: translateX(0%);
+        z-index: 11;
+    }
+
+  .open{
+    transform: translateX(-100%);
+  }
+
+  .active{
+      transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,366 @@
+  /* Notes css  */
+
+.notes{
+    margin: 20px 0px 20px 20px;
+    padding: 20px 0px 20px 20px;
+    position: relative;
+    display: flex;
+}
+
+.main-notes{
+    width: 100%;
+}
+.notehead{
+    margin: 8px;
+   }
+
+.note_cname{
+    background-color: white;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: -9px 9px 12px 1px rgba(150,139,139,0.74);
+    -webkit-box-shadow: -9px 9px 12px 1px rgba(150,139,139,0.74);
+    -moz-box-shadow: -9px 9px 12px 1px rgba(150,139,139,0.74);
+   
+}
+
+.cnameh6{
+    padding-left: 5px;
+    font-size: 14px;
+    color: lightgray;
+    font-weight: 100;
+}
+
+
+.inputnote{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+     height: max-content;
+     resize: none;
+    
+}
+
+
+.btnaddnote{
+    width: max-content;
+    margin: 10px 10px 15px 10px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: lightblue;
+    cursor: pointer;
+    box-shadow: -9px 9px 12px 1px rgba(150,139,139,0.74);
+    -webkit-box-shadow: -9px 9px 12px 1px rgba(150,139,139,0.74);
+    -moz-box-shadow: -9px 9px 12px 1px rgba(150,139,139,0.74);
+}
+
+.allnotes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    
+}
+
+.box{
+    background-color: white;
+    width: 30%;
+    min-height: 160px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+
+    padding: 12px;
+    font-weight: 500;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 2px 3px 25px -6px rgba(122,99,99,0.74);
+    -webkit-box-shadow: 2px 3px 25px -6px rgba(122,99,99,0.74);
+    -moz-box-shadow: 2px 3px 25px -6px rgba(122,99,99,0.74);
+}
+.titledate{
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title{
+    
+    display: inline-block;
+}
+.notedate{
+    display: inline-block;
+}
+
+.content{
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .cname-content{
+      font-weight: bolder;      
+}
+
+ .notewithcname{
+  display: none; 
+ }
+
+.btndiv{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.btneditnote{
+  border-radius: 5px;
+  text-align: center;
+  margin: 0px 5px; 
+  cursor: pointer;
+}
+
+.btndeletenote{
+     border-radius: 5px;
+     text-align: center;
+     margin: 0px 5px; 
+     cursor: pointer;
+}
+
+.delete-icon{
+    font-size: 24px;
+}
+
+.edit-icon{
+    font-size: 24px;   
+}
+
+.hover-edit{
+    display: none;
+}
+
+.hover-delete{
+    display: none;
+}
+
+.btndeletenote:hover + .hover-delete{
+    display: inline-block;
+    width: max-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    font-size: 12px;
+    
+  }
+
+  .btneditnote:hover + .hover-edit{
+    display: inline-block;
+    width: max-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 0px 8px;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    font-size: 14px;
+  }
+
+
+.notes-sidebar{
+    position: fixed;
+    top: 13vh;
+    right: 0px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    background-color: #f9fcff;
+    border-radius: 7px;
+    box-shadow: -9px 9px 12px 1px rgba(150,139,139,0.74);
+    -webkit-box-shadow: -9px 9px 12px 1px rgba(150,139,139,0.74);
+    -moz-box-shadow: -9px 9px 12px 1px rgba(150,139,139,0.74);
+    
+}
+
+.calc-icon{  
+    cursor: pointer;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    width: 30px;
+    height: 30px;    
+}
+
+.hover_calc{
+    display: none;
+}
+
+.calc-icon:hover + .hover_calc{
+    display: inline-block;
+    width: max-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+}
+.analysis-icon{  
+    cursor: pointer;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    width: 30px;
+    height: 30px;    
+}
+
+.hover_analysis{
+    display: none;
+}
+
+.analysis-icon:hover + .hover_analysis{
+    display: inline-block;
+    width: max-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+}
+
+.library{
+    width: 30px;
+    height: 30px;
+}
+
+.hover-library{
+    display: none;
+}
+
+.library:hover + .hover-library{
+    display: inline-block;
+    width: max-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+.notification{
+    width: 30px;
+    height: 30px;
+}
+
+.hover-notification{
+    display: none;
+}
+
+.notification:hover + .hover-notification{
+    display: inline-block;
+    width: max-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    top: 170px;
+    right: 0px;
+}
+
+.gift{
+    width: 30px;
+    height: 30px;
+}
+
+.hover-giftcard{
+    display: none;
+}
+
+.gift:hover + .hover-giftcard{
+    display: inline-block;
+    width: max-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    top: 230px;
+    right: 0px;
+}
+
+.gift{
+    font-weight: 800;
+}
+
+.chess-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.hover-chess{
+    display: none;
+}
+
+.chess-icon:hover + .hover-chess{
+    display: inline-block;
+    width: max-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    top: 287px;
+    right: 7px;
+}
+
+.chatbot-icon{
+    width: 30px;
+    height: 30px;
+}
+.hover-chess{
+display: none;
+}
+
+.chatbot-icon:hover + .hover-chess{
+    display: inline-block;
+    width: max-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    top: 340px;
+    right: 4px;
+}
+
+@media screen and (max-width: 400px){
+    .inputnote{
+        width: 85%;
+        height: 120px;
+        font-size: 12px; 
+         
+    }
+
+    .box{
+    width: 90%;
+    font-size: 12px;
+}
+}

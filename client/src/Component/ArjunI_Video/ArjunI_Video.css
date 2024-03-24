@@ -1,0 +1,78 @@
+.csv_reader {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 12vh;
+    left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    flex: 1;
+    width: 95%;
+    min-height: 85vh;
+}
+
+.close-calc {
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.nav-container {
+    width: max-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px auto;
+}
+
+.nav-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container ul li {
+    list-style: none;
+    margin: 4px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-container ul li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.allvideocomp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+.videocomp {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 7px;
+}
+
+.videocomp img {
+    width: 274px;
+    height: 184px;
+}
+
+.videocomp  h3{
+    margin:5px;
+}
+
+.videocomp p{
+     width: 274px;
+    margin-top: 5px;
+}

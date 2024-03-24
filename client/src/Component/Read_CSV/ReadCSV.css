@@ -1,0 +1,83 @@
+.csv_reader {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 12vh;
+    left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    flex: 1;
+    width: 95%;
+    min-height: 85vh;
+}
+
+.blur{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+
+}
+
+.close-analysis {
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    cursor: pointer;
+}
+
+.upload-botton {
+    width: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(156, 155, 155);
+    border-radius: 10px;
+    font-size: 16px;
+    height: min-content;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.file-input {
+    background-color: lightgray;
+    width: 200px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    border: none;
+    margin-left: 10px;
+
+    /* background-color: white; */
+
+}
+
+
+
+.displayn {
+    display: none;
+}
+
+.previous-week {
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.display-error {
+    /* margin-top: 5px; */
+    color: red;
+}
+
+.activebutton{
+    color: blue;
+    transform: scale(1.2);
+}

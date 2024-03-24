@@ -1,0 +1,136 @@
+
+.calc-container{
+  display: flex;
+  position: absolute;
+  top: 12vh;
+  left: 20px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 25px;
+  flex: 1;
+  /* flex-direction: column; */
+}
+
+.Calculator{
+  /* position: absolute;
+  top: 11vh;
+  display: flex;
+  flex-direction: column; */
+  /* justify-content: center; */
+  align-items: center;
+  /* background-color: white; */
+  height: 70vh;
+  width: 50%;
+  overflow-y: auto;
+  z-index: 1;
+  flex: 1;
+  margin-right: 10px;
+  
+}
+/* close button */
+.Calculator > span{
+  position: absolute;
+  top: 1px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.Calculator > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.Calculator > div > input {
+   padding: 14px;
+   margin:20px 10px;
+   font-size: 16px;
+   outline: none;
+   border: 1px solid rgb(156, 155, 155);
+   border-radius: 10px;
+   width: 300px;
+}
+
+.Calculator > div > select {
+  padding: 14px;
+  margin:20px 10px;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid rgb(156, 155, 155);
+  border-radius: 10px;
+  width: 300px;
+  color: grey;
+}
+.options {
+  padding: 14px;
+  margin:20px 10px;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid rgb(156, 155, 155);
+  border-radius: 10px;
+  width: 300px;
+  color: grey;
+}
+
+.Calculator > div > button {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid rgb(156, 155, 155);
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.table {
+  background-color: white;
+  display: block;
+  margin: 6px;
+  border: 1px solid #f1e7e7;
+  border-collapse: collapse;
+  font-size: 18px;
+  width: 90%;  
+}
+
+.calc-table{
+      width: 900px;  
+      border: 1px solid #f7f1f1;
+      border-radius: 10px;
+      overflow-y: auto;
+      flex: 2.5;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.table-head {
+  width: 909px;
+  border: 1px solid #fdf6f6;
+  padding: 6px 2px;
+  text-align: center;
+  font-weight: 600;
+  box-shadow: none;
+}
+
+.gain-arrow{
+  color: green;
+  align-items: center;
+  font-size: 28px;
+}
+
+.head{
+  width: 800px;
+  border: 1px solid #f7f1f1;
+}
+
+
+.head-gain{
+  padding: 8px;
+}
+
+
+
+.t-data{
+  border: 1px solid #f7f1f1;
+  
+}
+
+.delete-icon{
+  cursor: pointer;
+}

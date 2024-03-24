@@ -1,0 +1,254 @@
+.display-f{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.display-flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+.PercentAnalysis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+    top: 12vh;
+    left: 20px;
+    background-color: #f9f9f8;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.PercentAnalysis-single{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    z-index: 10;
+    position: absolute;
+    top: 12vh;
+    left: 20px;
+    background-color: #f9f9f8;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.display-flex1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.fileName{
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+.container-comp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.close-analysis{
+  position: absolute;
+  top: 1px;
+  right: 0px;
+  cursor: pointer;
+  color: lightgrey;
+}
+
+.percentagehigh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 50px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 250px;
+    /* background-color: lightblue; */
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.highlow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    background-color: lightblue;
+    margin: 20px 50px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.percentage{
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.noofDays{
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+.valuepercent{
+  font-size: 50px;
+  color: rgb(250, 176, 40);
+
+}
+
+.valuehighlow{
+    font-size: 50px;
+  color: rgb(240, 51, 240);
+}
+
+.valueNoofDays{
+    font-size: 40px;
+}
+
+.per{
+    font-size: 30px;
+}
+
+.analysis_table{
+    background-color: white;
+    width: 270px;
+    display: block;
+    margin: 6px;
+    border: 1px solid #fdf6f6;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+.table-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 30%; */
+    border: 1px solid rgb(192, 162, 162);
+    border-radius: 15px;
+}
+
+.color-red{
+    color: red;
+}
+
+.color-green{
+    color: green;
+}
+
+.analysis-img-bull{
+    width: 40px;
+    height: 40px;
+}
+
+.analysis-img-bear{
+    width: 35px;
+    height: 35px;
+}
+
+.ana-span{
+    display: block;
+}
+
+.table-head{
+    color: grey;
+}
+
+.table-data{
+    font-weight: bold;
+}
+
+.small-filename{
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+
+
+
+/*  toggle button css  */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    align-self: flex-end;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  

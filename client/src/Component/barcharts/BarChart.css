@@ -1,0 +1,77 @@
+.barchart{
+    margin-left: 10px;
+}
+
+.custom-tooltip{
+    border: 1 px solid black;
+    border-radius: 10px;
+    width: max-content;
+    padding: 2px;
+    color: black;
+    background-color: lightgray;
+}
+
+.lastdays{
+    margin: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    width: max-content;
+}
+/* 
+.previous-week{
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    padding: 5px;
+    cursor: pointer;
+} */
+
+.first-ele{
+    border: none;
+}
+
+.custom-tooltip{
+    border: 1 px solid black;
+    border-radius: 10px;
+    width: max-content;
+    padding: 10px;
+    color: white;
+    background-color: grey;
+}
+
+.allbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin:20px auto;
+}
+
+.allbuttons > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 10px;
+   
+}
+
+.smallbox{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    border: 1px solid rgba(70, 65, 65, 0.438);
+    outline: none;
+    cursor: pointer;
+}
+
+.spanWithIcon{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 25px;
+   width: 25px;
+   border-radius: 5px;
+    border: 1px solid rgba(70, 65, 65, 0.438);
+}

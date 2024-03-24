@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+
+}
+.main-body{
+    position: absolute;
+    left:270px ;
+    top: 10vh;
+    height: 90vh;
+    width: 80%;
+    padding-left: 15px; 
+}
+
+.blur{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+
+.Nodata{
+    padding-left: 35%;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+
+
+
+
+@media screen and (max-width: 400px){ 
+    .main-body{
+        left:0px ;
+        margin: 0px;
+        padding: 0;
+        width: 100%;  
+    }    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
